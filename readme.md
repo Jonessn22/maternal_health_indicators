@@ -10,9 +10,9 @@ The MVI ranks US counties and states in terms of vulnerability to poor pregnancy
 - Project summary
 
 ## Steps to Reproduce 
-✅ Read this README file for project details
-Ensure you have the latest version of python installed
-Pull down the project modules and source csv and excel files from this repository to import into your local directory files
+1. ✅ Read this README file for project details
+2. Ensure you have the latest version of python installed
+3. Pull down the project modules and source csv and excel files from this repository to import into your local directory files
 
 ## Timeline
 Project Start | Friday, January 14, 2022 (afternoon)
@@ -21,7 +21,8 @@ Project Due |   Monday, January 24, 2022 (morning)
     - ✅ (1hr) ... Project specifications
     - ✅ (1hr) ... Select project and dataset
     - ✅ (1hr) ... Project planning (<a href = https://trello.com/b/yTcSXVlK/individual-project>link</a> for Trello board)
-    - (2hr) ... Data acquisition and prep
+    - ✅ (2hr) ... Data acquisition and prep
+        - wrangle.py module
     - (2.5hr) ... EDA
 
 - Day 02 ... Exploration Wrap up, Modeling, Project Delivery Prep
