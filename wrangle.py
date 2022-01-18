@@ -31,6 +31,7 @@ ONE JOINED DF.
 
     df = df1.join(df2, how = 'inner', lsuffix = '_mvi', rsuffix = '_cd')
     print(f'✅ DataFrames successfully joined.')
+    print()
 
     return df
 
@@ -63,6 +64,7 @@ def clean_data(df):
     df['more_women'] = df.pop_women > df.pop_men
     df['perc_women'] = round(df.pop_women / df.pop_total*100, 1)
     print('✅ Data is cleaned.')
+    print()
 
     return df
 
@@ -82,9 +84,10 @@ def prepare_data(df):
     train, validate = train_test_split(train_validate, test_size=.3, random_state=12, stratify=train_validate.state)
 
     # verifying the split
+    print('✅ Data has been successfully split and is ready for exploration.')
     print(f'train -> {train.shape}')
     print(f'validate -> {validate.shape}')
     print(f'test -> {test.shape}')
-    print('✅ Data has been successfully split and is ready for exploration.')
+    print()
 
     return train, validate, test
