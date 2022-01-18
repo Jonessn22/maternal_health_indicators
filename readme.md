@@ -22,9 +22,15 @@ Project Due |   Monday, January 24, 2022 (morning)
     - ✅ (1hr) ... Select project and dataset
     - ✅ (1hr) ... Project planning (<a href = https://trello.com/b/yTcSXVlK/individual-project>link</a> for Trello board)
     - ✅ (2hr) ... Data acquisition and prep
-        - wrangle.py module
+        - ✅ wrangle.py module
     - (2.5hr) ... EDA
 
 - Day 02 ... Exploration Wrap up, Modeling, Project Delivery Prep
+    - (1hr) ... Summarize EDA findings, performs next steps indicated from exploration, and complete any work needed to be done prior to modeling.
+    - (2hr) ... Modeling
+        - Baseline
+        - Find best performing model
+        - See how it performs on out of sample, unseen test data
+        - Visualize performance
 - Day 03 ... MVP Iteration, Project Writeup
 - Day 04 ... Peer Review
