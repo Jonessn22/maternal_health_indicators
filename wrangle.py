@@ -20,10 +20,10 @@ ONE JOINED DF.
         print(f'✅ {file_name} successfully acquired.')
 
     print()
-    for df in [df1, df2]:
-        print(f'There are {df.shape[0]} rows and {df.shape[1]} columns in the data.')
-        print(f'There are {df.isna().sum().sum()} null values in the data.')
-        print()
+    # for df in [df1, df2]:
+    #     print(f'There are {df.shape[0]} rows and {df.shape[1]} columns in the data.')
+    #     print(f'There are {df.isna().sum().sum()} null values in the data.')
+    #     print()
 
     # setting index for each column as column with FIPS code to join them on.
     df1.set_index('GEOID', inplace = True)
